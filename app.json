@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Counter Cross Platform App",
+    "slug": "counter-cross-platform-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#6366f1"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.counterapp.counter"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#6366f1"
+      },
+      "package": "com.counterapp.counter"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
+
