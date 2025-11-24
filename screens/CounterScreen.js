@@ -78,7 +78,7 @@ const CounterScreen = () => {
             <Text style={styles.counterLabel}>Current Count</Text>
             <Text style={styles.counterValue}>{count}</Text>
             <TouchableOpacity onPress={handleDecrement}>-{decrementValue}</TouchableOpacity>
-            <TouchableOpacity onPress={handleIncrement}>-{incrementValue}</TouchableOpacity>
+            <TouchableOpacity onPress={handleIncrement}>+{incrementValue}</TouchableOpacity>
         </View>
     </View>
   )
